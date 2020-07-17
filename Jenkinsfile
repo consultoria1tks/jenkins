@@ -8,7 +8,7 @@ node {
     def SF_USERNAME=env.SF_USERNAME
     def SERVER_KEY_CREDENTALS_ID='server_key_file'
     def TEST_LEVEL='RunLocalTests'
-    def DEPLOYDIR='src'
+    def DEPLOYDIR='force-app'
     def PACKAGE_NAME
     def PACKAGE_VERSION
     def SF_INSTANCE_URL = env.SF_INSTANCE_URL ?: "https://login.salesforce.com"
